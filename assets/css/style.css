@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #121212;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+form {
+  background: #343434;
+  display: flex;
+  padding: 20px;
+  width: 320px;
+  height: 390px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #343434;
+  border-radius: 6px;
+}
+
+form#regist {
+  background: linear-gradient(-40deg, rgb(70, 193, 185), rgb(180, 105, 208)) scroll;
+}
+
+form div { width: 100%;}
+.form-title { width: max-content; margin-bottom: 60px;}
+.form-group { margin-bottom: 15px; }
+.form-group label:nth-child(0) { display: block; }
+.form-group label:nth-child(1) { display: block; }
+.form-group p { color: red; }
+.form-group a { text-decoration: none; color: #4696EB; }
+
+.form-group .inp {
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+  border: 0;
+  height: 40px;
+  border-bottom: 2px solid #4696EB;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: 0.2s ease-in;
+}
+
+.form-group .inp:focus-within {
+  border-radius: 6px;
+  border: 2px solid #4CA3FF;
+  color: black;
+  background: #eee;
+}
+
+.form-group button {
+  background: #204A87;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
